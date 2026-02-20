@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend-service
+  name: temperaturas-backend
 spec:
   type: ClusterIP 
   selector:
@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 5000      # Puerto por el que el Front buscará al Back
-      targetPort: 5000
+      targetPort: 3005
