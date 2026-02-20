@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80       # Puerto que pondrás en el navegador
-      targetPort: 5000 # El puerto interno de tu app
+      targetPort: 80 # El puerto interno de tu app
