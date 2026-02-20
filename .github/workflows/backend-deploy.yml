@@ -16,7 +16,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build and push Backend
         run: |
-          docker build -t izankone/examen-back:latest ./examen-daw/backend
+          docker build -t izankone/examen-back:latest ./backend
           docker push izankone/examen-back:latest
 
   deploy-to-eks:
