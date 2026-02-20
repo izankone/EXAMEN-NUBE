@@ -9,4 +9,4 @@ spec:
   ports:
     - protocol: TCP
       port: 5000      # Puerto por el que el Front buscará al Back
-      targetPort: 3005
+      targetPort: 5000

@@ -16,4 +16,4 @@ spec:
       - name: backend-container
         image: izankone/examen-back:latest
         ports:
-        - containerPort: 3005
+        - containerPort: 5000
